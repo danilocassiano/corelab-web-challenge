@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./navbar/page";
+import CreateNote from "../components/createNote/page";
 
 const Home: React.FC = () => {
   return (
     <div className="bg-[#F0F2F5] min-h-screen">
       <Navbar />
-      <h1 className="text-white">To do List</h1>
+      <CreateNote />
     </div>
   );
 };
