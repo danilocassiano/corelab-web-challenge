@@ -1,7 +1,6 @@
-
 const Navbar = () => {
   return (
-    <nav className="bg-white fixed top-0 left-0 w-full h-[57px] flex items-center px-4 border-b border-gray-200">
+    <nav className="bg-white w-full h-[57px] flex items-center px-4 border-b border-gray-200">
       <div className="flex items-center space-x-2">
         <img 
           src="/nota.png" 
